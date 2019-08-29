@@ -14,10 +14,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/marcoarthur/blog"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/mprado2011"
+    url = "https://twitter.com/maprado2011"
 
 [params]
     description = "R and Perl Adventures, from a PeRl hacker"
