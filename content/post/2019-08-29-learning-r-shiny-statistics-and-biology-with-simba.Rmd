@@ -6,6 +6,7 @@ slug: learning-r-shiny-statistics-and-biology-with-simba
 tags:
 - biology
 - statistic
+- r
 categories: R
 ---
 
