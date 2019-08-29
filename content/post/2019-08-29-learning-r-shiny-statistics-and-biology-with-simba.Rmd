@@ -1,0 +1,44 @@
+---
+title: "Learning R, shiny, statistics and Biology with Simba"
+author: "Marco Arthur"
+date: '2019-08-29'
+slug: learning-r-shiny-statistics-and-biology-with-simba
+tags:
+- biology
+- statistic
+categories: R
+---
+
+# The idea and Purpose
+
+For a scientist is not difficult to appreciate analysis. All a scientist wants
+is to have a simple beautiful discovery in his life. I'm sure, I am not at that
+level for a scientist, well one day we all are juniors, in my case a baby.
+
+So following some ideas about applying better my computer science degree I
+thought a good idea to put in practice more of data analysis. This way I would
+learn a little bit of the theory and something of the tools. For this task I
+would have to choose a good dataset, so I choose.
+
+Simba is a project for environment monitoring from the Big Brazilian Oil
+Company Petrobras, it has its
+[website](https://segurogis.petrobras.com.br/simba/web/) . This project aims to
+take monitoring of sea life in the coast where Petrobras has activities,
+exploring Oil in deep undersea. This project already have some data collected
+from the years it have been running, although a *terrible* system was made to
+make the dataset public ( one tradition that most companies in Brazil have).
+Still, we can have some good amount of data that have been collected, mainly
+related to wild animal conservation, with biologist taking notes and measures
+for various animals that happens to appear in the beaches monitored by the
+project. Collecting measures of animals, whether dead or alive, and making
+effort for treatment if it is found will or injured.
+
+## A report first
+
+The beginning of the data exploration starts with this simple R's markdown. And
+the first problem with the dataset already pops up. Since the export of csv
+files has a bug, apparently. Altogether the file came a set of __Null characters__
+a control character `Ctr+2` that makes hard to import directly with tidyverse
+versatile readr package.
+
+The results can be accessed [here](http://rpubs.com/marcoarthur/simba)
