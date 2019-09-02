@@ -6,6 +6,7 @@ slug: learning-r-shiny-statistics-and-biology-with-simba
 tags:
 - biology
 - statistic
+- r
 categories: R
 ---
 
@@ -41,4 +42,11 @@ files has a bug, apparently. Altogether the file came a set of __Null characters
 a control character `Ctr+2` that makes hard to import directly with tidyverse
 versatile readr package.
 
-The results can be accessed [here](http://rpubs.com/marcoarthur/simba)
+So using vim we could easily defeat this *fallen* [^1]. After that
+the results can be accessed [here](http://rpubs.com/marcoarthur/simba)
+
+It is a simple report in Portuguese, already showing some nice ideas for using
+a more _dynamic_ approach in generating the graphs, since many are a repeated
+operation, only changing the input.
+
+[^1]: https://diablo.fandom.com/wiki/Fallen_(Diablo_II)
